@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LevelCompleteController">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="153.0" fitWidth="200.0" layoutX="150.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/finish.gif" />
+         </image></ImageView>
+      <ImageView fitHeight="82.0" fitWidth="102.0" layoutX="199.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/finish1.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="67.0" layoutY="369.0" mnemonicParsing="false" onAction="#processRestart" style="-fx-background-color: naDARKSLATEBLUEvy;" text="Retry" textFill="#1ec03e">
+         <font>
+            <Font name="Segoe Print Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="343.0" layoutY="377.0" mnemonicParsing="false" onAction="#processNext" prefHeight="49.0" prefWidth="91.0" style="-fx-background-color: naDARKSLATEBLUEvy;" text="Next" textFill="#1ec03e">
+         <font>
+            <Font name="Segoe Print Bold" size="20.0" />
+         </font></Button>
+      <Label fx:id="scoreRecord" layoutX="108.0" layoutY="437.0" prefHeight="38.0" prefWidth="111.0" text="Score:" textFill="#1ec03e">
+         <font>
+            <Font name="Segoe Print Bold" size="15.0" />
+         </font></Label>
+      <Button layoutX="208.0" layoutY="374.0" mnemonicParsing="false" onAction="#processBacktoHome" prefHeight="56.0" prefWidth="83.0" style="-fx-background-color: naDARKSLATEBLUEvy;">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="89.0" fitWidth="150.0" layoutX="214.0" layoutY="516.0" opacity="0.47" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/player.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="timeRecord" layoutX="298.0" layoutY="437.0" prefHeight="38.0" prefWidth="133.0" text="Time:" textFill="#1ec03e">
+         <font>
+            <Font name="Segoe Print Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

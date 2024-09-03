@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserGuideController">
+   <children>
+      <ImageView fitHeight="687.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="11.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00ced1;" text="User Guide:" wrappingWidth="205.419921875">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="55.0" fitWidth="53.0" layoutX="172.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icon-user-manual.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="33.0" layoutX="241.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="33.0" layoutX="122.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="40.0" layoutX="355.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="241.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrow(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="221.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/player.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="3.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00bfff;" text="--&gt; Press &quot;LEFT&quot; key to move left.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="3.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00bfff;" text="--&gt; Press &quot;UP&quot; key to move up.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="3.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00bfff;" text="--&gt; Press &quot;RIGHT&quot; key to move right.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="3.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00bfff;" text="--&gt; Press &quot;DOWN&quot; key to move down.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="3.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #00ced1;" text="--&gt; Press &quot;SPACE&quot;  to shoot.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="411.0" layoutY="613.0" mnemonicParsing="false" onAction="#processClose" style="-fx-background-color: naDARKSLATEBLUEvy;" text="Close" textFill="#1ec03e">
+         <font>
+            <Font name="ROGFonts-Regular" size="14.0" />
+         </font>
+      </Button>
+       </children>
+</Pane>

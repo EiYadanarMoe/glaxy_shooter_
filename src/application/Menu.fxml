@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <ImageView fitHeight="687.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="165.0" layoutY="62.0" mnemonicParsing="false" onAction="#processStart" prefHeight="68.0" prefWidth="171.0" style="-fx-background-color: #101765; -fx-background-radius: 200;" text="Start">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.048306528478860855" green="0.8026315569877625" blue="0.09859486669301987" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="165.0" layoutY="177.0" mnemonicParsing="false" onAction="#processscoreBoard" prefHeight="69.0" prefWidth="171.0" style="-fx-background-color: #101765; -fx-background-radius: 200;" text="Stats">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5276243093922652" centerY="0.514218009478673" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9685672521591187" green="0.9868420958518982" blue="0.9697855710983276" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.12311159819364548" green="0.5657894611358643" blue="0.18213531374931335" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="165.0" layoutY="293.0" mnemonicParsing="false" onAction="#processExit" prefHeight="68.0" prefWidth="171.0" style="-fx-background-color: #101765; -fx-background-radius: 200;" text="Exit">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.47867298578199047">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.04946393892168999" green="0.7631579041481018" blue="0.18030783534049988" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Text fill="#ce2121" fontSmoothingType="LCD" layoutX="130.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let's Protect Our Space!" wrappingWidth="240.87896728515625">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="87.0" fitWidth="88.0" layoutX="214.0" layoutY="524.0" opacity="0.47" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/player.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="611.0" mnemonicParsing="false" onAction="#processHelp" prefHeight="42.0" prefWidth="50.0" style="-fx-background-color: naDARKSLATEBLUEvy;">
+         <graphic>
+            <ImageView fitHeight="70.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/question-mark.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>
